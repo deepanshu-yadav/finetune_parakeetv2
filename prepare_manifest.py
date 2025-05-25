@@ -25,7 +25,7 @@ os.makedirs(input_audio_dir, exist_ok=True)
 dataset_url = "https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2"
 dataset_tar = os.path.join(base_dir, "LJSpeech-1.1.tar.bz2")
 
-if not os.path.exists(dataset_dir):
+if not os.path.exists(metadata_file):
     print(f"Downloading LJSpeech dataset from {dataset_url}...")
     wget.download(dataset_url, dataset_tar)
     print("\nExtracting dataset...")

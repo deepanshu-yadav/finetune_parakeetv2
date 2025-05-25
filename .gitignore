@@ -4,4 +4,8 @@ tokenizer_output/
 nemo_experiments/*
 parakeet-tdt-0.6b-v2/*
 NeMo/*
+NeMo
 .ipynb_checkpoints/*
+finetune_parakeetv2/*
+finetune_parakeetv2
+file.wav
