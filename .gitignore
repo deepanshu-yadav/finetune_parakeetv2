@@ -1,0 +1,7 @@
+data/*
+*.json
+tokenizer_output/
+nemo_experiments/*
+parakeet-tdt-0.6b-v2/*
+NeMo/*
+.ipynb_checkpoints/*

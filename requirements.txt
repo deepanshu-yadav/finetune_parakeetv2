@@ -1,0 +1,9 @@
+nemo_toolkit[asr]
+torch
+librosa
+soundfile
+wget
+tqdm
+numpy
+transformers
+pytorch-lightning
