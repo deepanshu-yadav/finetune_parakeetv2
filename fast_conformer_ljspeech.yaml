@@ -27,7 +27,7 @@ model:
   train_ds:
     manifest_filepath: train_manifest.json
     sample_rate: ${model.sample_rate}
-    batch_size: 16 # you may increase batch_size if your memory allows
+    batch_size: 4 # you may increase batch_size if your memory allows
     shuffle: true
     num_workers: 8
     pin_memory: true
@@ -186,6 +186,7 @@ model:
 
     # greedy strategy config
     greedy:
+      # use_cuda_graph_decoder: false 
       max_symbols: 10
 
     # beam strategy config
